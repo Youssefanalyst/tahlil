@@ -97,9 +97,3 @@ git push -u origin main
 - Do not commit secrets. Use `OPENROUTER_API_KEY` environment variable.
 - The folder `agents/rag_agent/store/` is ignored by Git (vector indexes are built locally).
 
-## Future Ideas
-
-- Support ranges like `A1:B10` in functions.
-- More statistical functions.
-- Advanced cell formatting tools.
-- Advanced Pivot editor with column pickers.
