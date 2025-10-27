@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.egg-info/
+.eggs/
+dist/
+build/
+.cache/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.python-version
+
+# Virtual envs
+.venv/
+.venv*/
+.rag-venv/
+.rag-venv*/
+
+# Editors/OS
+.DS_Store
+.idea/
+.vscode/
+
+# Logs & coverage
+logs/
+*.log
+coverage.*
+htmlcov/
+
+# Env files
+.env
+.env.*
+
+# Qt/PyQt artifacts
+*.qmlc
+*.jsc
+
+# Project data
+agents/rag_agent/store/

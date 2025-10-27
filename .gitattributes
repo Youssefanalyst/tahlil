@@ -1,0 +1,10 @@
+* text=auto eol=lf
+
+# Export ignores
+.venv/ export-ignore
+.rag-venv/ export-ignore
+logs/ export-ignore
+agents/rag_agent/store/ export-ignore
+
+# Linguist hints
+*.md linguist-documentation
